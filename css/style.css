@@ -267,8 +267,8 @@ figure {
           background: rgba(255, 255, 255, 0.2);
           -webkit-box-shadow: none;
           box-shadow: none;
-          width: 12px;
-          height: 12px;
+          width: 24px;
+          height: 24px;
           cursor: pointer; }
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
