@@ -100,6 +100,20 @@ figure {
       -o-transform: translateX(-270px);
       transform: translateX(-270px);
       padding-top: 4em; } }
+  #colorlib-aside .author-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+  #colorlib-aside .position {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 12px;
+}
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 400;
