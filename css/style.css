@@ -101,29 +101,30 @@ figure {
       transform: translateX(-270px);
       padding-top: 4em; } }
 	  
+	/* This section is taken from https://github.com/chuacon/chuacon.github.io 	*/
 	  
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
     margin-bottom: 30px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    -ms-border-radius: 70%;
+    border-radius: 70%; }
   #colorlib-aside .position {
     display: block;
     margin-bottom: 0.5em;
     font-size: 16px;
 	}
-	
+	/* This section is taken from https://github.com/chuacon/chuacon.github.io 	*/
 	
   #colorlib-aside #colorlib-logo {
-    text-align: right;
+    text-align: center;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     display: block;
     width: 100%; }
     @media screen and (max-width: 768px) {
