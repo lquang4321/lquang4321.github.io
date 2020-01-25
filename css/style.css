@@ -432,10 +432,10 @@ body.offcanvas {
 
 .about-img {
   width: 50%;
-  height: 250px; }
+  height: 150px; }
   .about-img .about-img-2 {
     width: 100% !important;
-    height: 390px;
+    height: 190px;
     position: absolute;
     margin: 0 auto;
     margin-bottom: 30px;
