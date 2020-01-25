@@ -431,8 +431,8 @@ body.offcanvas {
   letter-spacing: 5px; }
 
 .about-img {
-  width: 25%;
-  height: 150px; }
+  width: 100%;
+  height: 200px; }
   .about-img .about-img-2 {
     width: 100% !important;
     height: 150px;
