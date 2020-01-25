@@ -667,7 +667,7 @@ body.offcanvas {
       transform: translate3d(0, 0, 0); }
 
 .project-desc h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -676,7 +676,7 @@ body.offcanvas {
 .project-desc span {
   display: block;
   color: #666666;
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 15px; }
   .project-desc span a {
     color: #666666; }

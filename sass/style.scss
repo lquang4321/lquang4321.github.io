@@ -839,7 +839,7 @@ content: "\ea1c";
 }
 .project-desc{
 	h2{
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 500;
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -848,7 +848,7 @@ content: "\ea1c";
 	span{
 		display: block;
 		color: lighten($brand-black,40%);
-		font-size: 13px;
+		font-size: 15px;
 		margin-bottom: 15px;
 		a{
 			color: lighten($brand-black,40%);
@@ -857,7 +857,7 @@ content: "\ea1c";
 	.icon{
 		span{
 			display: inline;
-			padding-right: 5px;
+			padding-right: 8px;
 		}
 	}
 	.btn-download{
