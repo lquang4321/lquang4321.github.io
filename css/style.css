@@ -431,11 +431,11 @@ body.offcanvas {
   letter-spacing: 5px; }
 
 .about-img {
-  width: 50%;
+  width: 0%;
   height: 150px; }
   .about-img .about-img-2 {
     width: 100% !important;
-    height: 190px;
+    height: 150px;
     position: absolute;
     margin: 0 auto;
     margin-bottom: 30px;
