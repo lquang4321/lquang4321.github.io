@@ -195,16 +195,9 @@ figure {
 		@include translateX(-270px);
 		padding-top: 4em;
 	}
-	.author-img{
-		width: 150px;
-		height: 150px;
-		margin: 0 auto;
-		margin-bottom: 30px;
-		@include border-radius(50%);
-	}
 	.position{
 		display: block;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 		font-size: 16px;
 		text-transform: uppercase;
 	}
