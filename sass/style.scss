@@ -202,7 +202,7 @@ figure {
 		height: 150px;
 		margin: 0 auto;
 		margin-bottom: 30px;
-		@include border-radius(70%);
+		@include border-radius(5%);
 	}
 	.position{
 		display: block;

@@ -108,13 +108,13 @@ figure {
     height: 150px;
     margin: 0 auto;
     margin-bottom: 30px;
-    -webkit-border-radius: 70%;
-    -moz-border-radius: 70%;
-    -ms-border-radius: 70%;
-    border-radius: 70%; }
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
   #colorlib-aside .position {
     display: block;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     font-size: 16px;
 	}
 	/* This section is taken from https://github.com/chuacon/chuacon.github.io 	*/
