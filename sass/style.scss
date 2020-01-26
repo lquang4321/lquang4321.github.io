@@ -9,7 +9,7 @@ $brand-primary: #F75940 !default;
 
 
 
-$brand-white: ##e5e5e5;
+$brand-white: #e5e5e5;
 $brand-black: #000;
 $brand-darker: #444;
 $brand-gray: #ccc;
@@ -198,16 +198,16 @@ figure {
 	
 	/* This section is taken from https://github.com/chuacon/chuacon.github.io 	*/
 	.author-img{
-		width: 150px;
-		height: 150px;
-		margin: 0 auto;
+		width: 185px;
+		height: 185px;
+		margin: auto auto;
 		margin-bottom: 30px;
 		@include border-radius(5%);
 	}
 	.position{
 		display: block;
 		margin-bottom: 2em;
-		font-size: 12px;
+		font-size: 14px;
 		text-transform: uppercase;
 	}
 	/* This section is taken from https://github.com/chuacon/chuacon.github.io 	*/
