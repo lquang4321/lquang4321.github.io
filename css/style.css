@@ -208,9 +208,9 @@ figure {
     position: absolute;
     bottom: 40px;
     right: 1.5em;
-    left: 1.5em;
+    left: 0.5em;
     font-size: 30px;
-    text-align: right;
+    text-align: left;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
     padding: 0 20px; }
