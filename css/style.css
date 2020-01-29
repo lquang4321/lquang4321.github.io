@@ -115,18 +115,18 @@ figure {
   #colorlib-aside .position {
     display: block;
     margin-bottom: 1.5em;
-    font-size: 12px;
+    font-size: 16px;
 	}
 	/* This section is taken from https://github.com/chuacon/chuacon.github.io 	*/
 	
   #colorlib-aside #colorlib-logo {
     text-align: center;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 21px;
     text-transform: uppercase;
     margin-bottom: 1em;
     display: block;
-    width: 100%; }
+    width: 90%; }
     @media screen and (max-width: 768px) {
       #colorlib-aside #colorlib-logo {
         margin-bottom: 1em; } }
@@ -136,7 +136,7 @@ figure {
       background: #000;
       padding: .5em .8em;
       color: #fff;
-      letter-spacing: 10px;
+      letter-spacing: 7px;
       padding-right: .3em; }
       #colorlib-aside #colorlib-logo a span {
         display: block;
@@ -153,7 +153,7 @@ figure {
       margin: 0 0 10px 0;
       padding: 0;
       list-style: none;
-      font-size: 12px;
+      font-size: 16px;
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1px; }
@@ -270,7 +270,7 @@ figure {
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
+        background-position: center center;
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
@@ -586,7 +586,7 @@ body.offcanvas {
     left: 0;
     width: 100%;
     right: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.7);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -617,7 +617,7 @@ body.offcanvas {
           color: #cccccc; }
     .project .desc h3 {
       font-size: 16px;
-      font-weight: 500;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
