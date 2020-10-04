@@ -35,12 +35,6 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<!--Project images using Root folder variable-->
-	<script>
-		function setBG(DIR, imageNAME){
-			document.getElementById(DIR).setAttribute("style", "background-image: url(images/Project_Images/" + DIR + "/" + imageNAME +");");
-		}
-	</script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -63,8 +57,8 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li class="colorlib-active animate-box" data-animate-effect="fadeInLeft"><a href="projects.html">Projects</a></li>
-					<li><a href="services.html">Skills</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li class="colorlib-active animate-box" data-animate-effect="fadeInLeft"><a href="skills.html">Skills</a></li>
 					<!-- <li><a href="blog.html">Blog</a></li> -->
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
@@ -91,112 +85,68 @@
 					</li>
 				</ul>
 			</div>
+
 		</aside>
 
 		<div id="colorlib-main">
-
-			<div class="colorlib-work">
+			<div class="colorlib-services">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3">
-							<span class="heading-meta">Portfolio</span>
-							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">My Projects</h2>
+							<span class="heading-meta">What I do?</span>
+							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">Here are some of my skills</h2>
 						</div>
 					</div>
 					<div class="row">
-						<div class="row">
-							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-								<div id="R2D2" class="project">
-									<script>
-										setBG('R2D2','Dome.jpg');
-									</script>
-									<div class="desc">
-										<div class="con">
-											<h3><a href="Projects/work-single.html">R2D2 Robot (In Progress)</a></h3>
-											<span>1:1 Scale Wireless Controlled</span>
-											<p class="icon">
-												<span><a href="#"><i class="icon-calender"></i> September 2019 - Present</a></span>
-											</p>
-										</div>
-									</div>
+						<div class="col-md-6">
+							<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i><img src="images/RectifierBridge.png"></i>
+								</div>
+								<div class="colorlib-text">
+									<h3>Prototyping</h3>
+									<p>I prototype all my projects first through simulations, then test the design on a breadboard. There, I use lab equipments to troubleshoot any issues that may arise and compare my results to the simulations and adjust my design until it meets the requirements.
+									Once everything is satisfied, I begin transfering the design to a permanent solution like PCB.
+									</p>
 								</div>
 							</div>
 
-						<!--
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/work-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="Projects/work-single.html">Work 05</a></h3>
-										<span>Illustration, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
+							<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i><img src="images/Arduino.png"></i>
+								</div>
+								<div class="colorlib-text">
+									<h3>Arduino</h3>
+									<p>The Arduino platform offers a many great and easy-to-use hardware. Its intuitive software allows me to quickly prototype and implement my ideas. Arduino Uno is the standard board for most solutions. If size is a factor, I would choose either Arduino Nano or Micro that packs a powerful hardware in the size of your thumb.
+									If more connection or memory is needed, then the Arduino Mega can fill such role.
+									</p>
 								</div>
 							</div>
+
 						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/work-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="Projects/work-single.html">Work 06</a></h3>
-										<span>Web, Logo, Branding</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
+						<div class="col-md-5">
+							<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i><img src="images/3Dprint.png"></i>
+								</div>
+								<div class="colorlib-text">
+									<h3>3D Printing</h3>
+									<p>I began 3D printing about a year ago to reduce prototyping cost while increasing my output. I relied heavily on 3D printing for my project enclosures. 3D printing taught
+									me how to use Autodesk Fusion 360 for CAD and express my creativity beyond a rectangular wooden box.</p>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/work-7.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="Projects/work-single.html">Work 07</a></h3>
-										<span>Illustration, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
+							<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i><img src="images/Chip.png"></i>
+								</div>
+								<div class="colorlib-text">
+									<h3>Espressif Microcontroller</h3>
+									<p>Sometimes the ubiquitous 8-bit Arduino Uno can't keep up with twenty-first century demands, so a more powerful chip is needed.
+									ESP8266 is a great Arduino-compatible microcontroller that has WiFi embedded unlike older Arduino boards. It also packs more memory and a much faster 32-bit processor for more demanding applications.
+									ESP32 is even more advanced than the ESP8266, offering a dual-core microcontroller with both WiFi and Bluetooth 4.0 embedded.</p>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/work-8.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="Projects/work-single.html">Work 08</a></h3>
-										<span>Web, Logo, Branding</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						-->
 
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<ul class="pagination">
-								<li class="disabled"><a href="#">&laquo;</a></li>
-								<li><a href="projects.html">1</a></li>
-								<li class="active"><a href="#">2</a></li>
-
-
-								<li><a href="#">&raquo;</a></li>
-
-							</ul>
 						</div>
 					</div>
 				</div>
@@ -233,8 +183,6 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Sticky Kit -->
 	<script src="js/sticky-kit.min.js"></script>
-
-	<script src="js/slideshow.js"></script>
 
 
 	<!-- MAIN JS -->
