@@ -24,7 +24,7 @@
 	<link rel="shortcut icon" href="../favicon/favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="../css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -57,8 +57,8 @@
 				<ul>
 					<li><a href="../index.html">Home</a></li>
 					<li><a href="../about.html">About</a></li>
-					<li class="colorlib-active" data-animate-effect="fadeInLeft"><a href="../work.html">Projects</a></li>
-					<li><a href="../services.html">Skills</a></li>
+					<li class="colorlib-active" data-animate-effect="fadeInLeft"><a href="../projects.html">Projects</a></li>
+					<li><a href="../skills.html">Skills</a></li>
 
 					<li><a href="../contact.html">Contact</a></li>
 				</ul>
@@ -85,21 +85,110 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3">
 							<span class="heading-meta">Portfolio</span>
-							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">To be announced</h2>
+							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInLeft">IN PROGRESS</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-8 image-content">
-							<img class="img-responsive" src="../images/project_place_holder.jpg" alt="Picture">
-		
+							<!-- Container for the image gallery -->
+							<div class="container">
+
+							  <!-- Full-width images with number text -->
+							  <div class="mySlides">
+							    <div class="numbertext">1 / 6</div>
+									<iframe class="demo cursor" width="100%" height="500px" src="https://www.youtube.com/embed/iW0x33dmMCI" frameborder="0" allow="accelerometer;
+									autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							  </div>
+
+							  <div class="mySlides">
+							    <div class="numbertext">2 / 6</div>
+							      <img src="../images\Project_Images\R2D2\Dome_Bearing.jpg" style="width:100%" height="500px">
+							  </div>
+
+							  <div class="mySlides">
+							    <div class="numbertext">3 / 6</div>
+							      <img src="../images\Project_Images\R2D2\Dome_Bearing.jpg" style="width:100%" height="500px">
+							  </div>
+
+
+							  <div class="mySlides">
+							    <div class="numbertext">4 / 6</div>
+							      <img src="../images/img-4.jpg" style="width:100%" height="400px">
+							  </div>
+
+							  <div class="mySlides">
+							    <div class="numbertext">5 / 6</div>
+							      <img src="../images/img-5.jpg" style="width:100%" height="400px">
+							  </div>
+
+							  <div class="mySlides">
+							    <div class="numbertext">6 / 6</div>
+							      <img src="../images/img-6.jpg" style="width:100%" height="400px">
+							  </div>
+
+							  <!-- Next and previous buttons -->
+							  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+							  <!-- Image text -->
+							  <div class="caption-container">
+							    <p id="caption">asdsd</p>
+							  </div>
+
+							  <!-- Thumbnail images -->
+							  <div class="row">
+							    <div class="column">
+									<img class="demo cursor" src="../images/Project_Images/R2D2/Youtube-thumbnail.jpg" style="width:100%" onclick="currentSlide(1)" alt="Youtube Video">
+							    </div>
+							    <div class="column">
+							      	<img class="demo cursor" src="../images\Project_Images\R2D2\Dome_Bearing.jpg" style="width:100%" onclick="currentSlide(2)" alt="Dome_Bearing">
+							    </div>
+							    <div class="column">
+							      	<img class="demo cursor" src="../images\Project_Images\R2D2\Dome.jpg" style="width:100%" onclick="currentSlide(3)" alt="Dome">
+							    </div>
+
+							    <div class="column">
+							      	<img class="demo cursor" src="../images/img-4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+							    </div>
+							    <div class="column">
+							      	<img class="demo cursor" src="../images/img-5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+							    </div>
+							    <div class="column">
+							      	<img class="demo cursor" src="../images/img-6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+							    </div>
+
+							  </div>
+							</div>
 						</div>
+
 						<div class="col-md-4 sticky-parent">
 							<div id="sticky_item">
 								<div class="project-desc">
-									<h2>Title</h2>
-									<span><a href="#">Place</a>, <a href="#">Holder</a></span>
-									<p>More projects will be filled</p>
-									
+									<h2>R2D2</h2>
+									<span><i class="icon-calender"></i> September 2019 - Present</span>
+									<p>Currently, I am making an R2D2 1:1 scale robot from Star Wars at <a href="http://www.zahncenternyc.com/">Zahn Innovation Center</a>.
+									Its frame mainly comprised of 3D printed PLA plastic and its outer skin will be made from polystyrene. R2D2 will utilized two
+									DC motor for its movement and a smaller DC motor for its dome rotation. Currently, we are powering it using a power supply for testing
+									and troubleshooting purposes. The final design will utilize a 3S LiPo battery for power source. In addition, it has Alexa integrated using
+									a Raspberry Pi 3B as a personal assistant.
+									</p>
+
+									<p>To control R2D2, we utilized the HC-05 module for Bluetooth (BT) control via a smartphone and NRF24L01 for radio frequency (RF) control via a custom controller.
+									RF will be used as the main method of control for R2D2 while BT serves as a backup method.
+									</p>
+
+									<p>
+									All <a href="https://github.com/lquang4321/R2D2_Code">codes</a> were co-written and tested with another electrical engineering apprentice.
+									</p>
+
+									<!-- Get rid of icons
+									<p class="icon">
+										<span><a href="#"><i class="icon-share3"></i></a></span>
+										<span><a href="#"><i class="icon-eye"></i> 100</a></span>
+										<span><a href="#"><i class="icon-heart"></i> 49</a></span>
+									</p>
+									<p><a href="#" class="btn btn-primary">Live Preview</a> or <a href="#" class="btn-download">Download</a></p>
+									-->
 								</div>
 							</div>
 						</div>
@@ -119,7 +208,7 @@
 							<p class="colorlib-lead">  Click below</p>
 							<p><a href="../contact.html" class="btn btn-primary btn-learn">Contact me!</a></p>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
@@ -138,11 +227,11 @@
 	<script src="../js/jquery.flexslider-min.js"></script>
 	<!-- Sticky Kit -->
 	<script src="../js/sticky-kit.min.js"></script>
-	
-	
+	<!-- Slideshow -->
+	<script src="../js/slideshow.js"></script>
+
 	<!-- MAIN JS -->
 	<script src="../js/main.js"></script>
 
 	</body>
 </html>
-
